@@ -1,0 +1,33 @@
+{
+  "name": "telebot",
+  "version": "1.0.0",
+  "description": "Hyper-modular Telegram plugin bot in Typescript using Telegraf, Enmap.",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "start": "npm run build && npm run start-prod",
+    "start-prod": "node dist/main.js",
+    "dev": "ts-node-dev -r tsconfig-paths/register src/main.ts --rs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LotharieSlayer/telebot.git"
+  },
+  "author": "https://github.com/LotharieSlayer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LotharieSlayer/telebot/issues"
+  },
+  "homepage": "https://github.com/LotharieSlayer/telebot#readme",
+  "dependencies": {
+    "enmap": "^5.9.8",
+    "telegraf": "^4.12.3-canary.1",
+    "ts-node-dev": "^2.0.0",
+    "tsc-alias": "^1.8.7",
+    "tsconfig-paths": "^4.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}

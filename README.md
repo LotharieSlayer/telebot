@@ -1,10 +1,9 @@
-
-<h3 align="center"><img src="https://github.com/LotharieSlayer/telebot/assets/49253492/aac7b741-3198-4b9a-b6ef-404ffdafb2e3" width="400px"></h3>
-
+# Telebot
+<h3 align="center"><img src="https://github.com/LotharieSlayer/telebot/assets/49253492/aac7b741-3198-4b9a-b6ef-404ffdafb2e3" width="400px">
 <br/>
-
-
+<br/>
 A hyper-modular Telegram plugin bot in Typescript using Telegraf and Enmap.
+</h3>
 
 # Prerequisites
 - [Node v18.x](https://github.com/nvm-sh/nvm)

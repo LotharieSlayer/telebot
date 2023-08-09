@@ -1,19 +1,19 @@
 # Telebot
-Hyper-modular Telegram plugin bot in Typescript using Telegraf, Enmap.
+A hyper-modular Telegram plugin bot in Typescript using Telegraf and Enmap.
 
 # Prerequisites
 - [Node v18.x](https://github.com/nvm-sh/nvm)
 
 # Installation
-- `npm i` then `npm run start`, it's that simple!
-- You just need to add your token bot in `src/config.json` from [BotFather /token](https://t.me/botfather) !
-- If you want to start using the set_the_table plugin example, go set your ChatID in `src/plugins/set_the_table/files/config.json`
+- Run `npm i` and then `npm run start`, it's as simple as that!
+- Don't forget to add your bot token to `src/config.json` from [BotFather /token](https://t.me/botfather)!
+- If you want to start using the set_the_table plugin example, set your ChatID in `src/plugins/set_the_table/files/config.json`.
 
 # How To Use
-This project is the core of your next Telegram bot, plugins has specific constraints to make it easy to program. To create a new plugin, create a new folder under `plugins/`, name it. After that you want to have a `commands/` and `events/` folder. It is where you can set commands to use for your Telegram bot, and get events from Telegram API when receiving interactions. Go check the two plugin examples I did! In each plugins you can add an init.ts file with an init() function to start automatically loops for example at launches of the bot!
+This project serves as the core of your next Telegram bot. Plugins have specific guidelines to make programming easy. To create a new plugin, make a new folder under `plugins/`, and give it a name. Next, add a `commands/` and `events/` subfolder. These folders are where you can set commands for your Telegram bot and handle events from the Telegram API when interactions occur. Check out the two example plugins I've provided! Within each plugin, you can include an `init.ts` file with an `init()` function that automatically starts loops, for instance, during bot launches.
 
-# Register commands to BotFather
-Go again to the conversation with BotFather to /setcommands of these two plugins examples !
+# Register Commands with BotFather
+Return to your conversation with BotFather and use the `/setcommands` command for these two example plugins!
 ```
 start - Hello!
 help - Get help!
@@ -26,14 +26,13 @@ disable_set_the_table - Disable the feature
 ```
 
 # Notes
-I don't use Scenes and WizardScene in theses plugins examples, I think they are too complex for nothing, but I may be wrong and feel free to integrate it, i'm open to PR!
+These example plugins do not utilize Scenes and WizardScene. I believe they add unnecessary complexity, but I could be mistaken. Feel free to integrate them; I'm open to pull requests!
 
-Also like [WhatThePhoqueBOT](https://github.com/LotharieSlayer/wtpbot), another bot in this same plugins system way but for Discord, I may have the attention to make MongoDB integration, but for the moment I think it is too overkill.
+Similar to [WhatThePhoqueBOT](https://github.com/LotharieSlayer/wtpbot), another bot using this plugin system, but for Discord, I might consider integrating MongoDB. However, at the moment, I think it might be overkill.
 
-# Librairies
+# Libraries
 - [Telegraf](https://github.com/telegraf/telegraf)
 - [Enmap](https://github.com/eslachance/enmap)
-
 
 # License (CC BY-NC-ND 4.0)
 
